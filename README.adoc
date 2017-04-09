@@ -1,0 +1,32 @@
+= An ultrasonic adventure
+Hubert Sablonnière <https://github.com/hsablonniere[@hsablonniere]>
+
+== View online
+
+TODO
+
+== Build and view slides locally
+
+First, ensure you have the following installed:
+
+. http://nodejs.org[Node.js]
+. http://gulpjs.com[Gulp CLI]
+
+ $ npm install -g gulp-cli
+
+. https://www.ruby-lang.org/[Ruby >= 2]
+
+ $ rvm use 2.4.1 --install
+
+. http://bundler.io/[Bundler]
+
+ $ gem install bundler
+
+Next, install dependencies (if not already installed by the generator):
+
+ $ npm install
+   bundle install --path=.bundle/gems
+
+Finally, build and serve the presentation!
+
+ $ gulp serve

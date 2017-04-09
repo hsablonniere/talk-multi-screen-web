@@ -1,0 +1,114 @@
+https://hackernoon.com/why-i-stopped-using-multiple-monitors-bfd87efa2e5b
+
+---
+
+paris web
+
+cambridge
+batman
+on va pas demander à son boss un 2ème écran parce que c'est cool
+c'est la taille qui compte
+études => productivité
+distraction supplémentaire?
+comment rester concentré?
+jeff raskin
+chat
+une seule chose à la fois
+feux rouge
+hypothèse centre d'attention / mémoire à court terme
+usages
+  second screen
+  chromecast
+dzslides
+usage pdt mes cours
+je vois le web multi-écran partout
+  parleys
+  cms
+  agent immobilier
+3 catégories usages
+démo
+1 seul appareil vs sans serveur?
+the dark knight
+
+---
+
+
+
+---
+
+le bla bla doit faire 5min puis les démos puis 30 sec de fin
+
+introduction avec 2008 et the dark knight story
+citer quelque cas d'utilisation (agence de voyage, salle de classe, application de gestion, IDE)
+citer les types de groupes
+citer les types plusieurs devices vs avec serveur
+
+il y a plein de cas d'application mais on va se focaliser sur le cas sans serveur, un seul device, un speaker et une audience
+
+parler de l'architecture est surtout de la connexion avec un autre device (ou serveur)
+
+commencer par un exemple avec window.open
+  utilisé par reveal, remark, dzslides
+continuer avec le localstorage event
+  pas multi-origin mais bonne parade aux rechargements
+  grosse bidouille
+shared worker
+  technique utilisé depuis 2 ans
+  pas de support EDGE et Safari
+service worker
+  même esprit que le shared worker mais en mieux
+broadcastchannel
+  le localstorage bidouille mais en mieux avec des salons
+
+peut-être evoquer le manque intersidéral de possibilité de manipulation de fenêtres
+parler de l'approche amélioration progressive d'une extension Chrome/Firefox et autre
+
+evoquer le fait de ne maintenir qu'une seule connexion avec le serveur
+
+on fait quoi avec les MessageChannel?
+on parle aussi des iframes
+
+webrtc
+presentation api
+
+the postMessage talk!
+
+== 01-window-open
+
+Code-existant::
+* index.html (avec css et js)
+* popup.html (avec css et js)
+
+. type window.open()
+. taper les 3 paramètres
+. extraire les 3 variables
+. compléter `url` avec './slides.html' et expliquer l'avantage (ça marche avec des origines différentes)
+. compléter `name` (on y reviendra plus tard)
+. compléter `features` et expliquer le placement et quelques booléens (resizable déclence la popup)
+. tester le click et montrer les slides (OK, jusque là rien d'extraordinaire)
+. ajouter un settimeout pour montrer le blockage (puis l'enlever)
+
+
+// firefox trigger popup blocker as long as it's not in a direct "click" handler
+// mouseover won't work
+// same for chrome
+
+// parler de moveTo, moveBy
+
+== 02-localstorage-event
+
+/!\ on ne reçoit pas ses propres messages dans la même page
+(pas sur sur EDGE ou IE)
+
+serialisation pas automatique
+hack avec timestamp
+
+== 03-shared-worker
+
+
+
+== 04-service-worker
+
+
+
+== 05-broadcast-channel

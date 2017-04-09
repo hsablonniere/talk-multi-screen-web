@@ -1,0 +1,6 @@
+.tpl-usage {
+  color: var(--color-d);
+  font-family: 'Helvetica', sans-serif;
+  font-stretch: condensed;
+  font-size: 5em;
+}

@@ -1,0 +1,352 @@
+= [.le]#Le# [.web]#Web# [.multi]#Multi# [.ecran]#ecrans# [.en]#en# [.action]#action#
+Hubert Sablonnière
+:twitter: @hsablonniere
+:avatar: hsablonniere-avatar.jpg
+:organization: OpenDevise
+:organization-logo: opendevise-logo-grey.svg
+:hashtags: #WebMultiEcrans
+:event: Devoxx FR
+:date: 6 avril 2017
+:!sectids:
+:imagesdir: images
+:scriptdoc: src/notes/script.adoc
+
+[#poster.SLIDE, transform=poster]
+--
+--
+
+[#story-intro.SLIDE.tpl-screen]
+--
+--
+
+[#story-cambridge.SLIDE.tpl-media.cover]
+image::cambridge.jpg[title="Parker's piece - Cambridge - Royaume-Uni"]
+
+[#story-double-screen-desk.SLIDE.tpl-media.tpl-media--black.contain]
+image::bureau-2008.jpg[title="Mon Bureau - Juillet 2008"]
+
+[#story-the-dark-knight.SLIDE.tpl-media.cover]
+image::the-dark-knight.jpg[title="The Dark Knight - Christopher Nolan - 2008"]
+
+[#welcome.SLIDE, transform=poster]
+--
+--
+
+[#poster-titre.SLIDE.tpl-media.cover]
+image::poster-titre.svg[]
+
+[#pre-boss-discussion.SLIDE.tpl-blank]
+--
+--
+
+[#boss-discussion.SLIDE.tpl-media.contain]
+image::hishe.png[]
+
+[#mainsection-ergonomics.SLIDE.tpl-section.tpl-mainsection]
+Ergonomie
+
+[#ergonomics-studies-01.SLIDE.tpl-media.contain]
+image::jon-peddie-research.png[]
+
+[#ergonomics-studies-02.SLIDE.tpl-media.contain]
+image::microsoft-research.png[]
+
+[#ergonomics-studies-03.SLIDE.tpl-media.contain]
+image::pfeiffer-report.png[]
+
+[quote#quote-size.SLIDE.tpl-quote, @hsablonniere]
+Une grande surface d'affichage{nbsp}est un outil de productivité et{nbsp}de{nbsp}créativité.
+
+[#drinking-cat.SLIDE.tpl-media.contain]
+video::drinking-cat.webm[]
+
+// [#.SLIDE.tpl-media.contain]
+// image::article-nyt-manjoo-good.png[]
+//
+// [#.SLIDE.tpl-media.contain]
+// image::article-nyt-manjoo-bad.png[]
+
+// https://hackernoon.com/why-i-stopped-using-multiple-monitors-bfd87efa2e5b
+
+[#post-drinking-cat.SLIDE.tpl-blank]
+--
+--
+
+[#ergonomics-why-i-stopped-using-multiple-monitors-01.SLIDE.tpl-media.contain]
+image::why-i-stopped-using-multiple-monitors-01.png[title="https://hackernoon.com/why-i-stopped-using-multiple-monitors-bfd87efa2e5b"]
+
+[#ergonomics-why-i-stopped-using-multiple-monitors-02.SLIDE.tpl-media.contain]
+image::why-i-stopped-using-multiple-monitors-02.png[]
+
+// [#ergonomics-why-i-stopped-using-multiple-monitors-03.SLIDE.tpl-media.contain]
+// image::why-i-stopped-using-multiple-monitors-03.png[]
+
+[#ergonomics-why-i-stopped-using-multiple-monitors-04.SLIDE.tpl-media.contain]
+image::why-i-stopped-using-multiple-monitors-04.png[]
+
+[#ergonomics-why-i-stopped-using-multiple-monitors-05.SLIDE.tpl-media.contain]
+image::why-i-stopped-using-multiple-monitors-05.png[]
+
+[#ergonomics-why-i-stopped-using-multiple-monitors-06.SLIDE.tpl-media.contain]
+image::why-i-stopped-using-multiple-monitors-06.png[]
+
+[#children-table.SLIDE.tpl-media.tpl-media--black.contain]
+image::children-table.jpg[]
+
+[#mainsection-usages.SLIDE.tpl-section.tpl-mainsection]
+Usages
+
+[#.SLIDE.tpl-media.contain]
+image::schema-usage-categories-1.svg[]
+
+[#usages-example-01.SLIDE.tpl-usage]
+IDE en ligne
+
+[#usages-example-01.SLIDE.tpl-usage]
+CMS
+
+[#usages-example-01.SLIDE.tpl-usage]
+Regarder une présentation
+
+[#.SLIDE.tpl-media.contain]
+image::schema-usage-categories-2.svg[]
+
+[#usages-example-01.SLIDE.tpl-usage]
+Chez le médecin
+
+[#usages-example-01.SLIDE.tpl-usage]
+Agence immo.
+
+[#schema-usage-categories-cockpit.SLIDE.tpl-media.tpl-media--black.contain]
+image::cockpit.jpg[]
+
+[#.SLIDE.tpl-media.contain]
+image::schema-usage-categories-2-realestate.svg[]
+
+[#.SLIDE.tpl-media.contain]
+image::schema-usage-categories-3.svg[]
+
+[#.SLIDE.tpl-media.contain]
+image::schema-usage-categories-4.svg[]
+
+[#mainsection-techniques.SLIDE.tpl-section.tpl-mainsection]
+Techniques, hacks & APIs
+
+[#.SLIDE.tpl-media.contain]
+image::schema-technical-categories-0.svg[]
+
+[#.SLIDE.tpl-media.contain]
+image::schema-technical-categories-1.svg[]
+
+[#.SLIDE.tpl-media.contain]
+image::schema-technical-categories-2.svg[]
+
+[#.SLIDE.tpl-media.contain]
+image::schema-technical-categories-3.svg[]
+
+[#.SLIDE.tpl-media.contain]
+image::schema-technical-categories-4.svg[]
+
+[#.SLIDE.tpl-media.contain]
+image::schema-technical-categories-5.svg[]
+
+[#.SLIDE.tpl-media.cover]
+image::schema-enprez-extended-01.svg[]
+
+[#.SLIDE.tpl-media.cover]
+image::schema-enprez-extended-02.svg[]
+
+[#.SLIDE.tpl-media.cover]
+image::schema-enprez-extended-03.svg[]
+
+[#.SLIDE.tpl-media.cover]
+image::schema-enprez-extended-04.svg[]
+
+[#.SLIDE.tpl-media]
+--
+image::schema-enprez-extended-05.svg[role="init contain"]
+image::schema-enprez-extended-06.svg[role="one contain"]
+image::schema-enprez-extended-07.svg[role="two contain"]
+image::schema-enprez-extended-08.svg[role="three contain"]
+--
+
+[#schema-window-communication-2.SLIDE.tpl-media]
+image::schema-window-communication-2.svg[]
+
+[#schema-window-communication-1.SLIDE.tpl-media]
+image::schema-window-communication-1.svg[]
+
+[#01-window-open.SLIDE.tpl-section.tpl-section--01]
+01-window-open
+
+[#01-window-open-schema-1.SLIDE.tpl-media.contain]
+image::schema-window-open-1.svg[]
+
+[#01-window-open-schema-2.SLIDE.tpl-media.contain]
+image::schema-window-open-2.svg[]
+
+[#01-window-open-schema-3.SLIDE.tpl-media.contain]
+image::schema-window-open-3.svg[]
+
+[#01-window-open-schema-4.SLIDE.tpl-media.contain]
+image::schema-window-open-4.svg[]
+
+[#01-pros-cons.SLIDE.tpl-pros-cons]
+--
+[%build]
+* cross-origin
+* [.good]#bon support#
+* [.good]#sérialisation auto#
+* [.not-good]#nouvelle onglet/fenêtre forcément#
+* [.not-good]#lien pas tjs fiable (F5)#
+--
+
+[#02-localstorage-event.SLIDE.tpl-section.tpl-section--02]
+02-localstorage-event
+
+[#02-localstorage-event-schema-1.SLIDE.tpl-media.contain]
+image::schema-localstorage-event-1.svg[]
+
+[#02-localstorage-event-schema-2.SLIDE.tpl-media.contain]
+image::schema-localstorage-event-2.svg[]
+
+[#02-localstorage-event-schema-3.SLIDE.tpl-media.contain]
+image::schema-localstorage-event-3.svg[]
+
+[#02-localstorage-event-schema-4.SLIDE.tpl-media.contain]
+image::schema-localstorage-event-4.svg[]
+
+[#02-pros-cons.SLIDE.tpl-pros-cons]
+--
+[%build]
+* same-origin uniquement
+* [.good]#bon support#
+* [.good]#onglet/fenêtre existant#
+* [.not-good]#gros hack (date)#
+* [.not-good]#sérialisation nécessaire#
+* [.not-good]#API bloquante#
+--
+
+[#03-shared-worker.SLIDE.tpl-section.tpl-section--03]
+03-shared-worker
+
+[#03-shared-worker-1.SLIDE.tpl-media.contain]
+image::schema-shared-worker-1.svg[]
+
+[#03-shared-worker-2.SLIDE.tpl-media.contain]
+image::schema-shared-worker-2.svg[]
+
+[#03-shared-worker-3.SLIDE.tpl-media.contain]
+image::schema-shared-worker-3.svg[]
+
+[#03-shared-worker-4.SLIDE.tpl-media.contain]
+image::schema-shared-worker-4.svg[]
+
+[#03-shared-worker-5.SLIDE.tpl-media.contain]
+image::schema-shared-worker-5.svg[]
+
+[#03-shared-worker-6.SLIDE.tpl-media.contain]
+image::schema-shared-worker-6.svg[]
+
+[#03-shared-worker-7.SLIDE.tpl-media.contain]
+image::schema-shared-worker-7.svg[]
+
+[#03-pros-cons.SLIDE.tpl-pros-cons]
+--
+[%build]
+* same-origin uniquement
+* [.good]#sérialisation auto#
+* [.good]#onglet/fenêtre existant#
+* [.not-good]#support limité#
+* [.not-good]#code intermédiaire (boilerplate)#
+--
+
+[#04-service-worker.SLIDE.tpl-section.tpl-section--04]
+04-service-worker
+
+[#04-service-worker-1.SLIDE.tpl-media.contain]
+image::schema-service-worker-1.svg[]
+
+[#04-service-worker-2.SLIDE.tpl-media.contain]
+image::schema-service-worker-2.svg[]
+
+[#04-service-worker-3.SLIDE.tpl-media.contain]
+image::schema-service-worker-3.svg[]
+
+[#04-service-worker-4.SLIDE.tpl-media.contain]
+image::schema-service-worker-4.svg[]
+
+[#04-pros-cons.SLIDE.tpl-pros-cons]
+--
+[%build]
+* same-origin uniquement
+* [.good]#sérialisation auto#
+* [.good]#onglet/fenêtre existant#
+* [.good]#lister toutes les fenêtres#
+* [.not-good]#support limité#
+* [.not-good]#code intermédiaire (boilerplate)#
+--
+
+[#05-broadcast-channel.SLIDE.tpl-section.tpl-section--05]
+05-broadcast-channel
+
+[#05-broadcast-channel-01.SLIDE.tpl-media.contain]
+image::schema-broadcast-channel-01.svg[]
+
+[#05-broadcast-channel-02.SLIDE.tpl-media.contain]
+image::schema-broadcast-channel-02.svg[]
+
+[#05-broadcast-channel-03.SLIDE.tpl-media.contain]
+image::schema-broadcast-channel-03.svg[]
+
+[#05-broadcast-channel-04.SLIDE.tpl-media]
+--
+image::schema-broadcast-channel-04.svg[role="init contain"]
+image::schema-broadcast-channel-05.svg[role="one contain"]
+image::schema-broadcast-channel-06.svg[role="two contain"]
+--
+
+[#05-broadcast-channel-07.SLIDE.tpl-media.contain]
+image::schema-broadcast-channel-07.svg[]
+
+[#05-broadcast-channel-08.SLIDE.tpl-media]
+--
+image::schema-broadcast-channel-08.svg[role="init contain"]
+image::schema-broadcast-channel-09.svg[role="one contain"]
+image::schema-broadcast-channel-10.svg[role="two contain"]
+image::schema-broadcast-channel-11.svg[role="three contain"]
+image::schema-broadcast-channel-12.svg[role="four contain"]
+--
+
+[#05-broadcast-channel-13.SLIDE.tpl-media.contain]
+image::schema-broadcast-channel-13.svg[]
+
+[#05-pros-cons.SLIDE.tpl-pros-cons]
+--
+[%build]
+* same-origin uniquement
+* support limité (mais polyfill)
+* [.good]#sérialisation auto#
+* [.good]#onglet/fenêtre existant#
+* [.good]#multi-canal#
+--
+
+[#foo.SLIDE.tpl-media.cover]
+image::schema-enprez-extended-09.svg[]
+
+[#bar.SLIDE.tpl-media]
+--
+image::schema-enprez-extended-10.svg[role="init contain"]
+image::schema-enprez-extended-11.svg[role="one contain"]
+image::schema-enprez-extended-12.svg[role="two contain"]
+--
+
+[#conclusion.SLIDE.tpl-blank]
+--
+--
+
+[#end-the-dark-knight.SLIDE.tpl-media.cover]
+image::the-dark-knight.jpg[title="The Dark Knight - Christopher Nolan - 2008"]
+
+[#section-mercis.SLIDE.tpl-section.tpl-section--merci]
+Merci beaucoup !!!

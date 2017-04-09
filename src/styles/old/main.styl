@@ -1,0 +1,278 @@
+@import './fonts.styl'
+@import '../base-slide-responsive.css'
+@import 'base-notes.styl'
+
+.bespoke-slide
+  font-family 'Futura PT'
+
+@import '../tpl-poster.css'
+@import 'tpl-media.styl'
+@import 'tpl-quote.styl'
+@import 'tpl-striped-titles.styl'
+@import './tpl-title.styl'
+@import './tpl-code.styl'
+@import 'tpl-text.styl'
+@import 'tpl-code-stuff.styl'
+
+@import '../node_modules/prism-themes/themes/prism-ghcolors.css'
+
+section
+  font-size 4rem
+
+.bespoke-slide > p > code
+  font-family OperatorMono
+  font-weight bold
+
+#asciidoc code strong
+  color #2179c5
+  font-weight normal
+
+code[class*="language-"]
+pre[class*="language-"]
+  border none
+  color #222
+  font-family OperatorMono
+  font-size 1rem
+  font-weight 300
+  line-height calc(1 / 0.6)
+  margin 0
+  padding 0
+  // .token.string
+  // font-style italic
+
+.cue
+  display none !important
+
+figure
+blockquote
+p
+  margin 0
+
+.tpl-blank
+  background-color #000
+
+.tpl-blank--polaroid
+  background-color #ff9
+
+#conversion-2
+#conversion-3
+#ast
+#ast-2
+  .image
+    transition 150ms transform ease-in-out
+
+.toggle-state
+  #ast
+  #ast-2
+    .image
+      transform scale(2.5) translate3d(0, -12%, 0)
+
+.toggle-state
+  #conversion-2
+  #conversion-3
+    .image
+      transform scale(2) translate3d(0, -40%, 0)
+
+#title
+  .tpl-poster-header
+  .tpl-poster-footer
+    transition 150ms transform ease-in-out
+
+.toggle-state
+  #title .tpl-poster-header
+    transform translate3d(-20%, -110%, 0)
+  #title .tpl-poster-footer
+    transform translate3d(20%, 110%, 0)
+
+@media (max-height 450px) {
+  * {
+    animation none !important
+    transition-duration 0s !important
+  }
+}
+
+.toggle-state .tpl-media--shake .image {
+  animation-duration: 100ms;
+  animation-iteration-count: infinite;
+  animation-name: shake-hard;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes shake-hard {
+  2% {
+    transform: translate(-1px, -5px) rotate(-2.5deg);
+  }
+  4% {
+    transform: translate(-5px, -8px) rotate(2.5deg);
+  }
+  6% {
+    transform: translate(4px, 2px) rotate(-0.5deg);
+  }
+  8% {
+    transform: translate(1px, 6px) rotate(-1.5deg);
+  }
+  10% {
+    transform: translate(-3px, -6px) rotate(3.5deg);
+  }
+  12% {
+    transform: translate(10px, 5px) rotate(-2.5deg);
+  }
+  14% {
+    transform: translate(-5px, 8px) rotate(-0.5deg);
+  }
+  16% {
+    transform: translate(7px, 6px) rotate(-2.5deg);
+  }
+  18% {
+    transform: translate(4px, -7px) rotate(1.5deg);
+  }
+  20% {
+    transform: translate(-2px, 2px) rotate(0.5deg);
+  }
+  22% {
+    transform: translate(-1px, 9px) rotate(-0.5deg);
+  }
+  24% {
+    transform: translate(1px, -2px) rotate(0.5deg);
+  }
+  26% {
+    transform: translate(-7px, -9px) rotate(1.5deg);
+  }
+  28% {
+    transform: translate(-5px, -2px) rotate(-2.5deg);
+  }
+  30% {
+    transform: translate(-4px, 7px) rotate(3.5deg);
+  }
+  32% {
+    transform: translate(8px, 2px) rotate(2.5deg);
+  }
+  34% {
+    transform: translate(5px, -5px) rotate(0.5deg);
+  }
+  36% {
+    transform: translate(-8px, -8px) rotate(2.5deg);
+  }
+  38% {
+    transform: translate(-7px, -2px) rotate(2.5deg);
+  }
+  40% {
+    transform: translate(8px, 0px) rotate(-1.5deg);
+  }
+  42% {
+    transform: translate(0px, -2px) rotate(2.5deg);
+  }
+  44% {
+    transform: translate(-1px, 1px) rotate(3.5deg);
+  }
+  46% {
+    transform: translate(10px, -5px) rotate(2.5deg);
+  }
+  48% {
+    transform: translate(-1px, 7px) rotate(0.5deg);
+  }
+  50% {
+    transform: translate(-8px, -2px) rotate(1.5deg);
+  }
+  52% {
+    transform: translate(-9px, 8px) rotate(2.5deg);
+  }
+  54% {
+    transform: translate(2px, 9px) rotate(-2.5deg);
+  }
+  56% {
+    transform: translate(-2px, 0px) rotate(2.5deg);
+  }
+  58% {
+    transform: translate(1px, 1px) rotate(-2.5deg);
+  }
+  60% {
+    transform: translate(10px, -9px) rotate(-0.5deg);
+  }
+  62% {
+    transform: translate(5px, 4px) rotate(0.5deg);
+  }
+  64% {
+    transform: translate(2px, -4px) rotate(0.5deg);
+  }
+  66% {
+    transform: translate(-9px, -7px) rotate(2.5deg);
+  }
+  68% {
+    transform: translate(-5px, -1px) rotate(0.5deg);
+  }
+  70% {
+    transform: translate(9px, -1px) rotate(2.5deg);
+  }
+  72% {
+    transform: translate(8px, 8px) rotate(-1.5deg);
+  }
+  74% {
+    transform: translate(-1px, 4px) rotate(2.5deg);
+  }
+  76% {
+    transform: translate(3px, -7px) rotate(1.5deg);
+  }
+  78% {
+    transform: translate(-7px, 0px) rotate(-2.5deg);
+  }
+  80% {
+    transform: translate(-5px, 5px) rotate(2.5deg);
+  }
+  82% {
+    transform: translate(6px, 6px) rotate(-0.5deg);
+  }
+  84% {
+    transform: translate(10px, 8px) rotate(-0.5deg);
+  }
+  86% {
+    transform: translate(4px, 10px) rotate(-0.5deg);
+  }
+  88% {
+    transform: translate(-5px, -9px) rotate(-1.5deg);
+  }
+  90% {
+    transform: translate(-8px, 9px) rotate(1.5deg);
+  }
+  92% {
+    transform: translate(6px, 6px) rotate(-1.5deg);
+  }
+  94% {
+    transform: translate(-3px, -4px) rotate(-1.5deg);
+  }
+  96% {
+    transform: translate(6px, -5px) rotate(0.5deg);
+  }
+  98% {
+    transform: translate(10px, 4px) rotate(-0.5deg);
+  }
+  0%, 100% {
+    transform: translate(0, 0) rotate(0);
+  }
+}
+
+.zoom-word
+  transform-origin 0 0
+  transition transform 150ms ease-in-out
+
+.toggle-state .zoom-word
+  transform scale(2.6)
+
+.zoom-brain
+  transition transform 100ms linear
+
+.toggle-state .zoom-brain
+  transform scale(1.15)
+
+.zoom-force
+  transition transform 200ms ease-in-out
+
+.toggle-state .zoom-force
+  transform translate3d(15%, -70%, 0)
+
+.zoom-remy
+  transform-origin 0 center
+  transition transform 200ms ease-in-out
+
+.toggle-state .zoom-remy
+  transform scale(3) translate3d(0, -43%, 0)

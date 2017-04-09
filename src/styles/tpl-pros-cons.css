@@ -1,0 +1,18 @@
+.tpl-pros-cons {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 3em;
+}
+
+.tpl-pros-cons ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tpl-pros-cons ul .good {
+  color: var(--color-d);
+}
+
+.tpl-pros-cons ul .not-good {
+  color: red;
+}

@@ -1,0 +1,139 @@
+= Le Web Multi ecrans en action
+
+[#poster]
+Pour bien comprendre ma fascination pour...
+
+[#story-intro]
+...les écrans, il faut remonter à 2008.
+#PAUSE#
+Cette année là, pendant l'été, j'ai effectué mon premier vrai stage de développeur à...
+
+[#story-cambridge]
+...Cambridge au Royaume-Uni.
+#PAUSE#
+Je m'en souviens bien parce que c'était la première fois que je travaillais avec un...
+
+[#story-double-screen-desk]
+...double écran.
+Je vous ai retrouvé une image d'archive avec mon poste de l'époque.
+Je bossais sur une appli Web,
+j'avais eclipse en bas et le navigateur en haut.
+Bosser avec deux écrans, c'était un peu un rêve à l'époque.
+J'avais l'impression d'être dans les films américains.
+D'ailleurs cet été là, au ciné, il y a un film qui envoyait du rêve niveau multi-écrans :
+
+[#story-the-dark-knight]
+the Dark Knight !!
+Si vous vous souvenez bien, à la fin, il y une scène avec Fox, Morgan Freeman, qui utilise un système qui à l'air trop cool.
+Qu'est-ce qu'on a devant nous ?
+On a une centaine d'écrans qui fonctionnent ensemble pour aider un utilisateur à réaliser une tâche particulière.
+Moi ça, je trouve ça super intéressant.
+Bon après, en fait, c'était un système de surveillance massive utilisant les smartphones des gens comme sonar pour retrouver le Joker en moins de deux.
+C'est complètement flippant mais bon, ça va jamais arriver dans la vraie vie...
+C'est qu'un film !
+
+[#welcome]
+#01:30#
+Bonjour à *toutes* et à tous,
+j'm'appelle Hubert Sablonnière,
+j'suis développeur Web chez #OpenDevise# et aujourd'hui j'ai envie de vous parler du...
+
+[#poster-titre]
+...Web multi-écrans en action.
+Juste avant de passer aux démos,
+
+[#pre-boss-discussion]
+je voudrai revenir sur le pourquoi on pourrait avoir envie ou besoin de développer des applications qui fonctionnent sur plusieurs écrans en même temps.
+Pendant mon stage et à la maison,
+j'avais pris l'habitude de travailler avec plusieurs écrans.
+du coup, quand j'ai commencé mon premier job,
+J'ai demandé à mon boss de m'en fournir un deuxième.
+
+[#boss-discussion]
+Je vous épargne les détails de la négociation mais en gros,
+il voulait des preuves de productivité.
+Du coup je me suis intéressé un peu à...
+
+[#mainsection-ergonomics]
+...l'ergonomie.
+Je suis tombé sur plusieurs...
+
+[#ergonomics-studies-01]
+...études, pas tjs très récentes d'ailleurs.
+
+[#ergonomics-studies-02]
+Dans leurs résultats,
+les gains de productivité constatés varient beaucoup mais
+
+[#ergonomics-studies-03]
+en gros ils sont tous d'accord sur un point:
+*C'est la taille qui compte.*
+Bon, comme j'ai pas trop envie que vous sortiez mes propos de leur contexte sur twitter,
+je vais reformuler:
+
+[#quote-size]
+citation
+J'ai un peu soif,
+du coup je vous propose une petite distraction...
+
+[#post-drinking-cat]
+C'est exactement ce qui inquiétait mon boss, les distractions.
+Mais c'est aussi pour ça que j'ai dit que c'était un outil,
+et comme n'importe quel outil,
+c'est pas adapté à tout le monde ni a tout les usages.
+Bien sur que si vous mettez Facebook et YouTube sur l'autre écran vous allez pas avancer sur votre travail.
+
+[#ergonomics-why-i-stopped-using-multiple-monitors-01]
+Il y un article qui est sorti il y a dix jours sur le sujet.
+En gros, l'auteur essaye de nous convaincre que parcequ'il est revenu à un seul écran, on devrait tous faire pareil.
+
+[#ergonomics-why-i-stopped-using-multiple-monitors-02]
+Je commence à lire...
+_La plupart des études sur le sujet sont sponsorisées par des fabricants d'écrans._
+C'est pas faux.
+_Les humains ne peuvent se focaliser que sur une seule chose à la fois._
+Là aussi, je suis d'accord.
+Le problème c'est qu'après,
+il argumente en disant qu'il...
+
+[#ergonomics-why-i-stopped-using-multiple-monitors-04]
+...bosse un peu à droite à gauche,
+du coup il préfère avoir le même environnement de travail dehors et chez lui.
+
+[#children-table.SLIDE.tpl-media.tpl-media--black.contain]
+Sauf que moi quand j'étais petit et que je bosse à la maison,
+j'avais de la place pour poser mon livre avec l'énoncé de l'exo de math,
+mon livre avec le cours,
+et la
+
+[#ergonomics-why-i-stopped-using-multiple-monitors-05]
+Du coup chez lui il a un seul écran mais
+
+[#ergonomics-why-i-stopped-using-multiple-monitors-06]
+il bosse en marchant sur un tapis de course.
+
+OK, là je peux plus.
+
+Je veux pas rentrer dans le débat sur le tapis de course ou le bureau debout mais l'auteur perd toute crédibilité à mes yeux.
+
+
+
+/////
+
+On entend tout et son contraire sur l'ergonomie et la productivité
+résumé de ma position
+/////
+
+[#conclusion]
+J'espère du coup que cette présentation vous donnera des idées pour vos projets et les bonnes techniques pour les implémenter.
+C'est à vous de jouer !
+
+[#end-the-dark-knight]
+On est en avril 2017.
+Ça va faire neuf ans que the Dark Knight est sorti et je suis un peu embêté.
+#PAUSE#
+Le problème c'est qu'on s'est méchament rapproché de l'aspect flippant de cette scène, la surveillance de masse obscène
+alors qu'on aurait du se concentrer sur l'aspect intéressant, les usages multi-écrans.
+
+[#section-mercis]
+Merci à toutes et à tous.

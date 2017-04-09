@@ -1,0 +1,46 @@
+.tpl-quote {
+  background-color: var(--color-c);
+  box-sizing: border-box;
+  font-family: 'PT Serif';
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: bold;
+  padding: 2rem;
+}
+
+.tpl-quote blockquote p {
+  color: var(--color-g);
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  padding-left: 4rem;
+  position: relative;
+}
+
+.tpl-quote blockquote p:before,
+.tpl-quote blockquote p:after {
+  color: var(--color-e);
+  font-size: 5rem;
+  line-height: 3rem;
+}
+
+.tpl-quote blockquote p:before {
+  content: '\201C';
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.tpl-quote blockquote p:after {
+  content: '\201D';
+  margin-left: 0.5rem;
+  vertical-align: text-top;
+}
+
+.tpl-quote figure {
+  margin: 0;
+}
+
+.tpl-quote figcaption {
+  color: var(--color-e);
+  text-align: right;
+}

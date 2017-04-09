@@ -1,0 +1,11 @@
+- _title_obj = document.doctitle partition: true, use_fallback: true
+
+section.tpl-poster id=(local_attr :id)
+  .tpl-poster-title = _title_obj.title
+  .tpl-poster-infos.tpl-poster-author = (attr :firstname) + ' ' + (attr :lastname)
+  .tpl-poster-infos.tpl-poster-organization = (attr :organization)
+  .tpl-poster-infos.tpl-poster-twitter = (attr :twitter)
+  .tpl-poster-infos.tpl-poster-event = (attr :event)
+  .tpl-poster-infos.tpl-poster-date = (attr :date)
+  .tpl-poster-infos.tpl-poster-hashtags = (attr :hashtags)
+  = content

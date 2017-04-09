@@ -1,0 +1,11 @@
+doctype 5
+html lang=(attr :lang, 'en' unless attr? :nolang)
+  head
+    meta charset='utf-8'
+    meta name='viewport' content='width=device-width, initial-scale=1'
+    title=(doctitle sanitize: true, use_fallback: true)
+    link rel='stylesheet' href='styles/main.css'
+  body id=id
+    article.deck
+      =content
+    script src='main.js'

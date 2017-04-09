@@ -1,0 +1,133 @@
+.tpl-media
+  align-items stretch
+  justify-content center
+  flex-direction row
+
+.tpl-media--inverse
+  background-color #000
+
+.tpl-media--polaroid
+  align-items center
+  background-color #000
+  background-color #ffc170
+  background-color #ff9
+  justify-content center
+  & + &
+    background-color transparent
+  &.bespoke-before
+    display flex
+    opacity 1 !important
+
+.image
+.video
+  .tpl-media &
+    align-items stretch
+    display flex
+    flex-direction column
+    flex 1 1 0
+    justify-content center
+    margin 0
+    width 100%
+
+.image
+.video
+  .tpl-media--polaroid &
+    background-color #000
+    backface-visibility hidden
+    border .5rem solid #fff
+    border-bottom-width 4rem
+    border-bottom-width 4rem
+    box-shadow 0 0 20px #454545
+    flex-grow 0
+    flex-shrink 0
+    height calc(var(--slide-height) * var(--size))
+    flex-basis calc(var(--slide-height) * var(--size))
+    min-width 0
+    width calc(var(--slide-height) * var(--size))
+    transform rotate(var(--rotate)) translate3d(0, calc(var(--slide-height) * 1.2), 0)
+    transition 0s transform cubic-bezier(0.77, 0, 0.175, 1)
+  .tpl-media--polaroid &
+    --rotate -7deg
+    --size 0.5
+    --shift -4
+  .tpl-media--polaroid + .tpl-media--polaroid &
+    --rotate 3deg
+    --size 0.75
+    --shift 6
+  .tpl-media--polaroid + .tpl-media--polaroid + .tpl-media--polaroid &
+    --rotate -3deg
+    --size 0.65
+    --shift -14
+
+.image
+.video
+  .bespoke-before.tpl-media--polaroid &
+  .bespoke-active.tpl-media--polaroid &
+    transition-duration 300ms
+    transform rotate(var(--rotate)) translate3d(calc(var(--slide-width) / var(--shift)), 0, 0)
+
+.image img
+.video video
+  .tpl-media &
+    display block
+    flex 1 1 0
+    // height 100%
+    object-fit scale-down
+    // width 100%
+  .tpl-media--polaroid.bespoke-before &
+    transition opacity 300ms linear
+    opacity .5
+
+.image.contain img
+.video.contain video
+.image.medium img
+.image.medium img
+  .tpl-media &
+    object-fit contain
+
+.image.contain img
+.video.contain video
+  .tpl-media &
+    width 100%
+    height 100%
+
+.image.medium img
+.image.medium img
+  .tpl-media &
+    box-sizing border-box
+    padding calc(var(--slide-height) * 0.2)
+    min-height 0
+    min-width 0
+    width 100%
+
+.image.cover img
+.video.cover video
+  .tpl-media &
+    height 100%
+    object-fit cover
+    width 100%
+
+.tpl-media figcaption
+  font-size 3rem
+  text-align center
+
+.image.left img
+.video.left video
+  .tpl-media &
+    object-position left center
+
+.tpl-media--state .image:nth-child(2)
+  display: none
+
+.toggle-state
+  .tpl-media--state .image:nth-child(1)
+    display: none
+  .tpl-media--state .image:nth-child(2)
+    display: flex
+
+.tpl-media--layer .image:nth-child(2)
+  left: 0
+  height: 100%
+  position: absolute
+  top: 0
+  width: 100%

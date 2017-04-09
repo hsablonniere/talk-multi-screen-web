@@ -1,0 +1,45 @@
+.tpl-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.tpl-section:not(.tpl-mainsection) * {
+  display: none;
+}
+
+.tpl-mainsection {
+  background-image: url(../images/mainsection-background.svg);
+  box-sizing: border-box;
+  color: var(--color-f);
+  font-family: 'Helvetica', sans-serif;
+  font-stretch: condensed;
+  font-weight: bold;
+  font-size: 7em;
+  padding:0.8em;
+  text-align: center;
+}
+
+.tpl-section.tpl-section--01 {
+  background-image: url(../images/section-background-01.svg);
+}
+
+.tpl-section.tpl-section--02 {
+  background-image: url(../images/section-background-02.svg);
+}
+
+.tpl-section.tpl-section--03 {
+  background-image: url(../images/section-background-03.svg);
+}
+
+.tpl-section.tpl-section--04 {
+  background-image: url(../images/section-background-04.svg);
+}
+
+.tpl-section.tpl-section--05 {
+  background-image: url(../images/section-background-05.svg);
+}
+
+.tpl-section.tpl-section--merci {
+  background-image: url(../images/section-background-merci.svg);
+}

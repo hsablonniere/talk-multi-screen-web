@@ -1,0 +1,142 @@
+.tpl-media {
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.tpl-media--black {
+  background-color: var(--color-a);
+}
+
+.tpl-media .image,
+.tpl-media .video {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+}
+
+.tpl-media .image img,
+.tpl-media .video video {
+  /* for alt text */
+  color: #aaa;
+  text-align: center;
+
+  display: block;
+  flex: 1 1 0;
+  min-height: 0;
+  object-fit: scale-down;
+}
+
+.tpl-media .image.contain img,
+.tpl-media .video.contain video {
+  object-fit: contain;
+}
+
+/*.tpl-media .image.contain img,*/
+/*.tpl-media .video.contain video {*/
+/*width: 100%;*/
+/*height: 100%;*/
+/*}*/
+
+/*.tpl-media .image.medium img {*/
+/*box-sizing: border-box;*/
+/*padding: calc(var(--slide-height) * 0.2);*/
+/*min-height: 0;*/
+/*min-width: 0;*/
+/*width: 100%;*/
+/*}*/
+
+.tpl-media .image.cover img,
+.tpl-media .video.cover video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.tpl-media.tpl-media--github .image img,
+.tpl-media.tpl-media--github .video video {
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transform: scale(1.6);
+  transform-origin: center top;
+  width: 100%;
+}
+
+.tpl-media.tpl-media--top .image img,
+.tpl-media.tpl-media--top .video video {
+  object-position: center top;
+}
+
+.tpl-media.tpl-media--logo .image,
+.tpl-media.tpl-media--logo .video {
+  align-items: center;
+  justify-content: center;
+}
+
+.tpl-media.tpl-media--logo .image img,
+.tpl-media.tpl-media--logo .video video {
+  flex: 0 0 50%;
+  height: 25%;
+  object-fit: contain;
+  width: 25%;
+}
+
+.tpl-media.tpl-media--logo figcaption {
+  background-color: var(--color-g);
+  color: var(--color-d);
+  position: static;
+  font-size: 3em;
+}
+
+.tpl-media figcaption {
+  box-sizing: border-box;
+  bottom: 0;
+  font-size: 2em;
+  left: 0;
+  padding: 0 0.5em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.tpl-media figcaption a {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.tpl-media.tpl-media--captionBelow figcaption {
+  position: static;
+}
+
+/*.tpl-media .image.left img,*/
+/*.tpl-media .video.left video {*/
+/*object-position: left center;*/
+/*}*/
+
+/*.tpl-media--state .image:nth-child(2) {*/
+/*display: none;*/
+/*}*/
+
+/*.toggle-state .tpl-media--state .image:nth-child(1) {*/
+/*display: none;*/
+/*}*/
+
+/*.toggle-state .tpl-media--state .image:nth-child(2) {*/
+/*display: flex;*/
+/*}*/
+
+/*.tpl-media--layer .image:nth-child(2) {*/
+/*left: 0;*/
+/*height: 100%;*/
+/*position: absolute;*/
+/*top: 0;*/
+/*width: 100%;*/
+/*}*/

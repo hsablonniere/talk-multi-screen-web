@@ -1,0 +1,26 @@
+{
+    "name": "talk-ultrasonic-adventure",
+    "version": "1.0.0",
+    "devDependencies": {},
+    "scripts": {
+        "serve": "browser-sync start -s dist --no-ui --no-open --no-notify -f dist",
+        "watch": "nodemon -e adoc,rb,slim,css,js,jpg,svg,png -i dist build.js"
+    },
+    "dependencies": {
+        "autoprefixer": "6.7.7",
+        "bespoke": "1.1.0",
+        "bespoke-bullets": "^1.1.0",
+        "bespoke-classes": "1.0.0",
+        "bespoke-hash": "^1.0.2",
+        "bespoke-multimedia": "^1.1.0",
+        "bespoke-nav": "^1.0.2",
+        "browser-sync": "2.18.8",
+        "browserify": "14.1.0",
+        "cssnano": "3.10.0",
+        "del": "2.2.2",
+        "gulp-postcss": "6.4.0",
+        "map-stream": "0.0.7",
+        "postcss-import": "^9.1.0",
+        "vinyl-fs": "2.4.4"
+    }
+}

@@ -1,0 +1,13 @@
+.tpl-text {
+  background-color: var(--color-g);
+  color: var(--color-d);
+  font-family: Borg, sans-serif;
+  font-size: calc(8em * var(--font-factor));
+  line-height: 1.2;
+  text-align: center;
+}
+
+.tpl-text strong {
+  color: var(--color-e);
+  font-weight: normal;
+}

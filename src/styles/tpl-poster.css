@@ -1,0 +1,10 @@
+.tpl-poster {
+  background-image: url(../images/poster-background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+
+.tpl-poster > * {
+  display: none;
+}
