@@ -1,0 +1,6 @@
+/.ruby-version
+/Gemfile.lock
+/.bundle/
+/.idea/
+/dist/
+/node_modules/
